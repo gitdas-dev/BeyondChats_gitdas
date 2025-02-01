@@ -4,7 +4,7 @@ BeyondChats is a modern real-time platform responsive UI that enables seamless i
 
 ## 🌐 Live Demo
 
-Visit the live application: https://beyond-chats-gitdas.vercel.app/home
+Visit the live application: https://beyond-chats-gitdas.vercel.app
 
 
 ## 🛠️ Tech Stack
