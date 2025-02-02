@@ -90,13 +90,13 @@ export default function ChatbotIntegration({
           <div className="grid gap-4 max-w-sm mx-auto pb-14">
             <button
               onClick={onNext}
-              className="flex items-center justify-center space-x-2 bg-slate-800 text-white py-3 px-6 rounded-md hover:bg-slate-500 transition-all duration-300 hover-lift"
+              className="flex items-center justify-center space-x-2 bg-slate-800 text-white w-60 mx-auto py-2 rounded-md hover:bg-slate-500 transition-all duration-300 hover-lift w-"
             >
               <ExternalLink className="w-5 h-5" />
               <span>Go to Admin Panel</span>
             </button>
 
-            <button className="flex items-center justify-center space-x-2 bg-white text-black border py-3 px-6 rounded-md hover:bg-indigo-50 transition-all duration-300 hover-lift">
+            <button className="flex items-center justify-center space-x-2 bg-white text-black border w-60 mx-auto py-2 rounded-md hover:bg-indigo-50 transition-all duration-300 hover-lift">
               <MessageSquare className="w-5 h-5" />
               <span>Preview Chatbot</span>
             </button>
