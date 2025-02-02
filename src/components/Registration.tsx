@@ -22,8 +22,8 @@ export default function Registration({
   };
 
   return (
-    <div className="shadow-2xl p-8 transition-all duration-500 animate-fadeIn h-[350px] rounded-2xl bg-slate-700">
-      <h2 className="text-3xl font-bold mb-6 text-white">
+    <div className="shadow-2xl p-8 transition-all duration-500 animate-fadeIn h-[450px] rounded-2xl bg-slate-700 mt-24 max-w-[600px] mx-auto">
+      <h2 className="text-3xl font-bold mb-6 text-white ">
         Create your account
       </h2>
       <form onSubmit={handleSubmit} className="space-y-6">

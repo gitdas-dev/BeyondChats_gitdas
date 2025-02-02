@@ -26,7 +26,7 @@ export default function OrganizationSetup({ onNext, onBack, userData, setUserDat
   };
 
   return (
-    <div className="shadow-2xl p-8 transition-all duration-500 animate-fadeIn rounded-2xl bg-slate-700">
+    <div className="shadow-2xl p-8 transition-all duration-500 animate-fadeIn rounded-2xl bg-slate-700 py-12 max-w-[600px] mx-auto">
       <h2 className="text-2xl font-bold text-white mb-6">Organization Setup</h2>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>

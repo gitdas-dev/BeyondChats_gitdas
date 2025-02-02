@@ -61,7 +61,7 @@ export default function WebsiteScanning({
   };
 
   return (
-    <div className="rounded-lg shadow-xl p-8 transition-all duration-500 animate-fadeIn hover-lift bg-slate-700">
+    <div className="rounded-lg shadow-xl p-8 transition-all duration-500 animate-fadeIn hover-lift bg-slate-700 max-w-[600px] mx-auto">
       <h2 className="text-2xl font-bold text-white mb-6">Website Scanning</h2>
 
       <div className="mb-8">

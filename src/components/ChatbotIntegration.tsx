@@ -62,7 +62,7 @@ export default function ChatbotIntegration({
   const renderTestingScreen = () => {
     if (testingStatus === "testing") {
       return (
-        <div className="text-center py-12 animate-scaleIn bg-black rounded-md pb-32">
+        <div className="text-center py-12 animate-scaleIn bg-black rounded-md pb-32 max-w-[600px] mx-auto h-[440px]">
           <Loader2 className="w-16 h-16 text-white mx-auto mb-6 animate-spin" />
           <h3 className="text-xl font-semibold text-white  mb-2">
             Testing Integration
@@ -76,7 +76,7 @@ export default function ChatbotIntegration({
 
     if (testingStatus === "success") {
       return (
-        <div className="text-center py-8 animate-scaleIn bg-slate-700 rounded-md">
+        <div className="text-center py-8 animate-scaleIn bg-slate-700 rounded-md max-w-[600px] mx-auto h-[440px]">
           <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce">
             <CheckCircle2 className="w-8 h-8 text-green-500" />
           </div>
@@ -107,7 +107,7 @@ export default function ChatbotIntegration({
 
     if (testingStatus === "failure") {
       return (
-        <div className="text-center py-8 animate-scaleIn bg-slate-700 rounded-md">
+        <div className="text-center animate-scaleIn bg-slate-700 rounded-md max-w-[600px] mx-auto h-[440px] mb-2">
           <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
             <AlertTriangle className="w-8 h-8 text-red-500" />
           </div>
@@ -172,14 +172,14 @@ export default function ChatbotIntegration({
 
   if (testingStatus) {
     return (
-      <div className="rounded-lg shadow-xl p-8 transition-all duration-500 animate-fadeIn h-[350p] bg-slate-800 pb-16">
+      <div className="rounded-lg shadow-xl p-8 transition-all duration-500 animate-fadeIn bg-slate-800 pb-16 max-w-[600px] mx-auto h-[500px]">
         {renderTestingScreen()}
       </div>
     );
   }
 
   return (
-    <div className="shadow-xl p-8 transition-all duration-500 animate-fadeIn h-[400px] bg-slate-700 rounded-md">
+    <div className="shadow-xl p-8 transition-all duration-500 animate-fadeIn bg-slate-700 rounded-md max-w-[600px] mx-auto h-[500px]">
       <h2 className="text-2xl font-bold text-white mb-10">
         Chatbot Integration
       </h2>
@@ -249,7 +249,7 @@ export default function ChatbotIntegration({
             </button>
           </>
         ) : (
-          <div className="text-center animate-scaleIn">
+          <div className="text-center animate-scaleIn max-w-[600px] mx-auto">
             <Mail className="w-16 h-16 text-white  mx-auto mb-4" />
             <h3 className="text-lg font-medium text-white  mb-2">
               Instructions Sent!
@@ -268,7 +268,7 @@ export default function ChatbotIntegration({
       </div>
 
       {showPreview && (
-        <div className="fixed inset-0 bg-opacity-50 flex items-center justify-center p-4 animate-fadeIn mt-11 w-full">
+        <div className="fixed inset-0 bg-opacity-50 flex items-center justify-center p-4 animate-fadeIn mt-11 w-full max-w-[600px] mx-auto">
           <div className="bg-pink-300 w-full max-w-2xl rounded-lg shadow-xl">
             <div className="p-4 border-b flex justify-between items-center">
               <h3 className="text-lg font-medium">Preview Mode</h3>

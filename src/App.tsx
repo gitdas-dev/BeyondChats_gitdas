@@ -30,11 +30,11 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[url(/gradient-technology-futuristic-background_52683-75946.jpg)] ">
+    <div className="min-h-screen bg-[url(/gradient-technology-futuristic-background_52683-75946.jpg)]">
 
       <Header />
       {/* Progress Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between mb-8 relative">
           {/* Progress Lines */}
           <div className="absolute top-5 left-0 w-full h-0.5 bg-gray-200">
@@ -77,7 +77,7 @@ function App() {
         </div>
 
         {/* Content */}
-        <div className="max-w-3xl mx-auto mt-28 h-full">
+        <div className="max-w-3xl mx-auto mt-12">
           <div className={`transition-all duration-500 transform ${
             direction === 'forward' ? 'translate-x-0' : '-translate-x-0'
           }`}>

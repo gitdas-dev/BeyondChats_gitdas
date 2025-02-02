@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 
 export default function SuccessScreen() {
   return (
-    <div className="rounded-lg shadow-xl p-8 text-center transition-all duration-500 animate-scaleIn hover-lift bg-slate-700">
+    <div className="rounded-lg shadow-xl p-8 text-center transition-all duration-500 animate-scaleIn hover-lift bg-slate-700 mx-auto max-w-[600px]">
       <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce">
         <CheckCircle2 className="w-8 h-8 text-green-500" />
       </div>
